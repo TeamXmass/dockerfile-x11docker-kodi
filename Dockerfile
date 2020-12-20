@@ -1,4 +1,4 @@
-FROM lxde
+FROM x11docker/lxde
 
 ARG DEBIAN_FRONTEND=noninteractive
 
