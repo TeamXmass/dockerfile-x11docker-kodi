@@ -22,9 +22,14 @@
   ```
   curl -fsSL https://raw.githubusercontent.com/mviereck/x11docker/master/x11docker | sudo bash -s -- --update
   ```
-  Check x11docker
+  * Download lxde Docker file and build the Docker image on the Pi:
   ```
-  x11docker --desktop x11docker/lxde
+  curl -fsSL https://raw.githubusercontent.com/mviereck/dockerfile-x11docker-lxde/master/Dockerfile
+  docker build -t lxde .
+  ```
+  Check x11docker lxde image
+  ```
+  x11docker --desktop lxde
   ```
   ### Build the kodi image:
   ```
