@@ -18,6 +18,13 @@
   docker info
   docker run hello-world
   ```
+  * Install additional packages:
+  TODO: verify if all needed.
+  ```
+  sudo apt install xpra xserver-xephyr xinit xauth xclip x11-xserver-utils x11-utils
+  sudo apt install xvfb
+  sudo apt install kaptain
+  ```
   * Install x11docker:
   ```
   curl -fsSL https://raw.githubusercontent.com/mviereck/x11docker/master/x11docker | sudo bash -s -- --update
